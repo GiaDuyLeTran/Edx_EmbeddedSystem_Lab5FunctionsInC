@@ -1,0 +1,10 @@
+Dependencies for Project 'Lab5', Target 'FunctionsInC': (DO NOT MODIFY !)
+F (.\startup.s)(0x57013918)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "H:\Embedded System\Edx course\Keil\ARM\RV31\INC"-I "H:\Embedded System\Edx course\Keil\ARM\CMSIS\Include"-I "H:\Embedded System\Edx course\Keil\ARM\Inc\Luminary"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\UART.c)(0x5B3CE203)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Embedded System\Edx course\Keil\ARM\RV31\INC"-I "H:\Embedded System\Edx course\Keil\ARM\CMSIS\Include"-I "H:\Embedded System\Edx course\Keil\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x54A01B5A)
+I (H:\Embedded System\Edx course\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+F (.\main.c)(0x5B3CE0D4)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Embedded System\Edx course\Keil\ARM\RV31\INC"-I "H:\Embedded System\Edx course\Keil\ARM\CMSIS\Include"-I "H:\Embedded System\Edx course\Keil\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (H:\Embedded System\Edx course\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (uart.h)(0x54A01B5A)
+I (TExaS.h)(0x5698FB00)
+F (.\texas.o)(0x5698FB00)()
